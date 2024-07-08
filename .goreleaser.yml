@@ -7,6 +7,7 @@ builds:
     goarch:
       - amd64
 archives:
+  - #
     format_overrides:
       - # Which GOOS to override the format for.
         goos: windows
