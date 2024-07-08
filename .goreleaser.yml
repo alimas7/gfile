@@ -7,7 +7,6 @@ builds:
     goarch:
       - amd64
 archives:
-    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
     format_overrides:
       - # Which GOOS to override the format for.
         goos: windows
