@@ -1,7 +1,7 @@
 # .github/workflows/release.yml
 name: goreleaser
 
-on: workflow_dispatch
+on:
   push:
     # run only against tags
     tags:
