@@ -1,5 +1,6 @@
 ---
 # Documentation: https://goreleaser.com/quick-start/
+version: 2
 project_name: gfile
 env:
   - GO111MODULE=on
